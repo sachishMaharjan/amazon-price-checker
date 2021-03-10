@@ -2,9 +2,9 @@ from bs4 import BeautifulSoup
 import requests
 from smtplib import SMTP
 
-MY_EMAIL = "test.day.32.start@gmail.com"
-PASSWORD = "HelloWorld12"
-RECEIVER_EMAIL = "programmer.sachish@gmail.com"
+MY_EMAIL = "YOUR SENDING EMAIL"
+PASSWORD = "YOUR PASSWORD"
+RECEIVER_EMAIL = "your receiving email"
 
 URL = "https://www.amazon.com.au/Nikon-D5600-18-55mm-70-300mm-851501/dp/B07RMTV67F/?_encoding=UTF8&pd_rd_w=KFapq&pf_rd_p=37a6e77e-e8e8-43c7-9685-b318cfbb9f8b&pf_rd_r=588PEX3F3ZFEG6C0RZ3W&pd_rd_r=9386ed46-3a5a-4a4b-a62f-9d5302518719&pd_rd_wg=GaQWM&ref_=pd_gw_ci_mcx_mr_hp_d"
 headers = {
